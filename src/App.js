@@ -1,11 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import Drinks from './Components/Drinks'
+import Banner from './Components/Banner'
+import Nav from './Components/Nav'
 
 function App() {
   return (
     <div className="App">
-      <h1>HELLO FROM ARIZONA CLONE</h1>
-      <h1>Meaningless change</h1>
+        <Banner />
+        <Nav />
+        <Drinks />
     </div>
   );
 }

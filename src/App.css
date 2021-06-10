@@ -1,4 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap');
 .App {
   text-align: center;
+  border: 1px solid black;
+  height: 100vh;
+  font-size: 18px;
 }
 
+.banner {
+  background-color: #48aaad;
+  text-transform: uppercase;
+  height: 30px;
+}
+
+.nav-bar {
+  background-color: #000000;
+  color: #ffffff;
+  height: 80px;
+  position: relative;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  font-family: 'Vast Shadow';
+  font-size: 2rem;
+  width: 10%;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+li {
+  padding: 10px;
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+h1 {
+  position: absolute;
+}
