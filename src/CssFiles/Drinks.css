@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+body {
+    background-color: #fffdd0;
+    font-size: 18px;
+}
+
+.drinks-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+}
+
+.container-header {
+    font-size: 8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Archivo Black';
+    text-shadow: 6px 6px 6px #fff;
+}

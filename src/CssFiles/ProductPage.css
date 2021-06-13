@@ -1,0 +1,13 @@
+.product-page {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-card {
+    width: 400px;
+    height: 500px;
+    border: 1px solid black;
+}
