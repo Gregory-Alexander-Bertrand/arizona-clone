@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap');
 .App {
   text-align: center;
-  border: 1px solid black;
   height: 100vh;
   font-size: 18px;
 }
@@ -77,4 +76,6 @@ h1 {
   .banner {
     height: 60px;
   }
+
+  
 }

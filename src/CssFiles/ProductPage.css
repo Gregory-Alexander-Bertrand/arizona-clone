@@ -9,12 +9,16 @@
 .product-card {
     width: 400px;
     height: 500px;
-    border: 1px solid black;
+    background: transparent;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
     cursor: pointer;
+}
+
+.product-card:hover {
+    box-shadow: 5px 5px 5px 5px bisque;
 }
 
 .addToCart {
@@ -35,4 +39,16 @@
 img {
     width: 300px;
     height: 300px;
+}
+
+h4 {
+    text-transform: uppercase;
+}
+
+h5 {
+    text-transform: uppercase;
+}
+
+.addToCart {
+    text-transform: uppercase;
 }

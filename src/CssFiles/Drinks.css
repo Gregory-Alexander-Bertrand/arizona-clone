@@ -12,6 +12,12 @@ body {
     height: 70%;
 }
 
+@media (max-width: 375px) {
+    body {
+        font-size: 9px;
+    }
+}
+
 .container-header {
     font-size: 8rem;
     font-weight: 600;
